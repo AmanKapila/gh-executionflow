@@ -1,0 +1,8 @@
+name: Reusable Deploy
+on: workflow_call
+jobs:
+    deploy:
+        runs-on: ubnuntu-latest
+        steps:
+            - name: Deploying
+              run: echo "Deploying & uploading..."
